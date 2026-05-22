@@ -1,0 +1,27 @@
+.home{      /*This targets a specific page or class*/
+    background-color: rgb(15, 10, 78);
+}
+.engine{
+    background-color: #8e8d8d;
+}
+
+.home h1{
+    text-align: center;
+}
+
+.home .logo {
+    display: block;
+    margin: auto;
+}
+
+.home h2 {
+    color: rgb(17, 106, 106);
+}
+
+.home .p1 {
+    color: rgb(177, 53, 53);
+}
+
+header{
+    color: rgb(177, 53, 53) ;
+}
