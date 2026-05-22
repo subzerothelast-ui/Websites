@@ -1,27 +1,43 @@
-.home{      /*This targets a specific page or class*/
-    background-color: rgb(15, 10, 78);
+#bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1
 }
 .engine{
     background-color: #8e8d8d;
 }
 
 .home h1{
-    text-align: center;
+    text-align: center; /* lines up text/images */
 }
 
-.home .logo {
+.home .logo { /* Use display: block + margin: auto to center an image; remove block if you want it inline beside text */
     display: block;
     margin: auto;
 }
 
 .home h2 {
-    color: rgb(17, 106, 106);
+    color: rgb(17, 106, 106); /* the color tag/syntax colors just the text color/foreground color*/
+    background-color: black;
 }
 
 .home .p1 {
     color: rgb(177, 53, 53);
+    background-color: black;
 }
 
 header{
     color: rgb(177, 53, 53) ;
+}
+
+.features p{
+    color: rgb(177, 53, 53);
+    background-color: black;
+}
+.description p{
+    color: rgb(177, 53, 53);
+    background-color: black;
 }
