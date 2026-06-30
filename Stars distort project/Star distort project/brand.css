@@ -1,0 +1,47 @@
+.stars {
+
+    position: fixed; /* this makes an image etc, sticks and fill the screen*/
+    top: 0;          /* means to start at the very top*/
+    left: 0;         /*means to start at the very left */
+    width: 100%;     /* meaning to take up the whole screen*/
+    height: 100%;    /* takes up the entire or fullscreen height of the page*/
+    z-index: -1;     /* the higher the closer the person sees it (or to not overlap with text)*/
+}
+
+.stars {
+    background-color: black;
+}
+
+.star {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;  /*this is what shapes the star the lower this is the
+                        closer it is to a square*/
+    position: absolute; /* this basically says "i want to manually place this element */
+    top: 110px; 
+    left: 150px;
+    box-shadow:           
+                 0 0 10px white;
+    animation: twinkle 3s infinite;
+}
+
+ @keyframes twinkle {
+ 0%{
+opacity: 1;
+ }   
+ 50%{
+    opacity: 0.2;
+ }
+ 100%{
+    opacity: 1;
+ }
+ }
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 140px;
+}
+
